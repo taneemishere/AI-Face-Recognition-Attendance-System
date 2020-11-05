@@ -9,7 +9,7 @@ put the images of the person which I called the known faces and so you be get to
 -	The method ```find_encodings()``` do finds all the encodings of the faces' images in the list
 -	The method ```mark_attendance()``` do opens the ```Attendance_Sheet.csv``` file and write the name of the person recognized by it also in the next column, 
 means this method do mark the attendace of the person 
-it do writes the time, i-e the cuurent time with the help of ```tic = datetime.now()```
+it do writes the time, i-e the current time with the help of ```tic = datetime.now()```
 -	Then until the webcam stream is open capture the frames
 -	First resize the frame size and reduce it by 25%
 -	Find the face locations of all the faces in the frames
