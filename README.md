@@ -1,7 +1,9 @@
 # AI-Face-Recognition-Attendance-System
 An attendance system based on facial recognition where it'll mark the person's attendance by recognizing his/her face. 
 By seeing via the webcam the model can recognize the faces you provide in the ```images``` folder. In the ```images``` 
-put the images of the person which I called the known faces and so you be get to go. 
+put the images of the person which I called the known faces and so you be get to go.\n
+Before going to do anything you'll also need to create a file named as ```Attendance_Sheet.csv```, and this will be the file where all of our 
+attendance will be marked.
 
 ## The Code Flow
 -	First read the path and get all the images' names to a list from the ```images``` folder
